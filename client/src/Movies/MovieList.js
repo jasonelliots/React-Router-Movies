@@ -29,7 +29,7 @@ function MovieDetails({ movie }) {
 
     <div className="movie-card">
 
-      <Link to={`/movies/${movie.id}`}><h2>{title}</h2></Link>
+      <Link to={`${url}${movie.id}`}><h2>{title}</h2></Link>
 
       <div className="movie-director">
         Director: <em>{director}</em>
